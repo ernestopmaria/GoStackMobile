@@ -25,7 +25,7 @@ useEffect(()=>{
   })
 },[]);
 
-const navigateToPofile = useCallback(()=>{
+const navigateToProfile = useCallback(()=>{
   navigate('Profile');
 }, [navigate])
 
@@ -39,7 +39,7 @@ const navigateToCreateAppointment = useCallback((providerId:string)=>{
         Bem vindo, {"\n"}
   <UserName> {user.name}</UserName>
       </HeaderTitle>
-      <ProfileButton onPress={navigateToPofile}>
+      <ProfileButton onPress={navigateToProfile}>
         <UserAvatar source={{uri: user.avatar_url}}/>
       </ProfileButton>
     </Header>

@@ -117,7 +117,7 @@ export const Section = styled.View`
 margin-bottom:24px;
 `;
 export const SectionTitle =  styled.Text`
-font-size:18;
+font-size:18px;
 color:#999591;
 font-family:'RobotoSlab-Regular';
 margin:0 24px 12px;
